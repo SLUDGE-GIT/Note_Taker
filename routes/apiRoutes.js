@@ -11,7 +11,7 @@ module.exports = (app) => {
     app.post('/api/notes', (req, res) => {
         let addNote = req.body;
         addNote.id = uuidv4();
-       console.log(uuidv4());
+        
         storedNotes.push(addNote);
         fs.writeFile(path.resolve(__dirname, '../db/db.json'), JSON.stringify(addNote), err => {
             err ? console.log(err) : console.log ('Note Succefully Saved');
