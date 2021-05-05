@@ -5,6 +5,9 @@
 # Description
 This project was created to help you keep tracks of your thoughts - or a grocery list - or even maybe a to-do list!
 
+![note_taker preview](https://user-images.githubusercontent.com/67348654/117182519-0f696180-ad9c-11eb-987a-9578c394bd72.jpg)
+
+
 # Table of Contents
 
 * [Installation](#Installation)
